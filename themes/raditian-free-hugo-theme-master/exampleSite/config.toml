@@ -64,11 +64,11 @@ theme = "raditian-free-hugo-theme"
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
   [params.logo]
-    text1 = "Rafael Luque"
-    text2 = "Astronomer"
+    text1 = "Andreas"
+    text2 = "Ellure"
 
   [params.footer]
-      copyright = "© 2023 Rafael Luque. All rights reserved."
+      copyright = "© Raditian. All rights reserved."
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"
