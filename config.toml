@@ -25,6 +25,12 @@ theme = "adritian-free-hugo-theme"
 # navigation
 [menu]
 
+  [[menu.main]]
+  name = "About"
+  identifier = "About"
+  URL = "#about"
+  weight = 200
+
   [[menu.header]]
   name = "About"
   URL = "#about"
