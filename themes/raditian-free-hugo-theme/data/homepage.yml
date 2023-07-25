@@ -12,8 +12,8 @@ showcase:
 
   button:
     icon: "icon-mail-fill"
-    btnText: "Contact"
-    URL: "https://radity.com/en/contact/"
+    btnText: "CV"
+    URL: "https://github.com/d9e7e69c-cccd-4631-8730-a80a39f893b7"
 
   socialLinks:
     - icon: "linkedin"
