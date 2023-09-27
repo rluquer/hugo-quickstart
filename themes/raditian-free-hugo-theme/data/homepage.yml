@@ -130,7 +130,7 @@ client_and_work:
   title: "Research Interests"
   enable: true
 
-  clients:
+#  clients:
 #    - logo:
 #        x: "img/clients/asgardia.png"
 #        _2x: "img/clients/asgardia@2x.png"
