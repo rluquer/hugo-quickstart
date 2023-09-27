@@ -31,7 +31,7 @@ theme = "raditian-free-hugo-theme"
   weight = 2
 
   [[menu.header]]
-  name = "Portfolio"
+  name = "Research"
   URL = "#portfolio"
   weight = 3
 
@@ -47,7 +47,7 @@ theme = "raditian-free-hugo-theme"
   weight = 2
 
   [[menu.footer]]
-  name = "Portfolio"
+  name = "Research"
   URL = "#portfolio"
   weight = 3
 

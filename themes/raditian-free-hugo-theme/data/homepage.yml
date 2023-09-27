@@ -195,10 +195,10 @@ client_and_work:
         _2x: "img/works/robo-advisor@2x.jpg"
       is_even: true
 
-# testimonial
+# Press releases
 testimonial:
   enable: true
-  title: "Testimonials"
+  title: "Publicity and Press"
   items:
     - name: "Daniel Jordan"
       position: "Phonet, CEO"
