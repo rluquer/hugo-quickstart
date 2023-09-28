@@ -3,19 +3,21 @@ showcase:
   enable: true
   title: "Hello, I’m Rafa!"
   subtitle: "Astrophysicist"
-  description: "I work at the <a target='_blank' href='https://uchicago.edu/'>University of Chicago</a>, 
+  description: "I work at the <a target='_blank' href='https://astrophysics.uchicago.edu/'>University of Chicago</a>, 
   doing research about exoplanets. 
   To discover new planets across the Galaxy, I love observing all types of stars using a variety of telescopes, 
   both in space (like JWST, TESS or Kepler) 
   and the darkest sites on Earth (Canary Islands, Hawaii or Chile). 
   But my favourites are the cool red stars we call M dwarfs, which are the most numerous in the Milky Way 
-  and give us the best chance to study terrestrial planets like ours and their atmospheres."
+  and give us the best chance to study terrestrial
+   planets like ours and their atmospheres."
   
   image:
-    x: "img/waterworld.jpg"
-#    _2x: "img/showcase/showcase@2x.png"
-  imageMobile:
-    x: "img/waterworld.jpg"
+#    x: "img/showcase/showcase.png"
+#   _2x: "img/showcase/showcase@2x.png"
+   _2x: "img/waterworld2.jpg"
+#  imageMobile:
+#    x: "img/showcase/showcase.png"
 
   button:
     icon: "icon-mail-fill"
@@ -48,7 +50,7 @@ showcase:
 #      URL: "https://www.facebook.com/raditycom/"
 
     - icon: "codepen"
-      URL: "#"
+      URL: "https://ui.adsabs.harvard.edu/public-libraries/iKUPgFeETO-VCmGSkQs1Yg"
 
 #    - icon: "yelp"
 #      URL: "https://www.yelp.com/"
@@ -62,28 +64,23 @@ about:
     My research focuses on understanding how planets form and what are they made of. 
     In particular, I am very interested in studying the origin and nature of planets between the size
     of Earth and Neptune. Although we have none of them in our Solar System, it appears that the stars
-    in our neighbourhood have a lot of them (more than any other type of planet). 
-    Since we cannot send any satellite to study them in detail 
-    (like we do with other bodies in the solar system), 
-    we need to rely on our indirect methods to learn all about them.
-    My favourite techniques to discover and measure precisely their properties 
-    are the radial velocity method 
-    and the transit technique (which we can also use to study their atmospheres!).
+    in our neighbourhood have a lot of them! 
     </p>
     <p class="lead">
     I like to spend my free time with my wife and daughter traveling, 
     going to museums, trying new food or exploring the city. 
     I have many other interests like jazz and flamenco music, architecture, 
     sports, sience outreach and many more. 
-    Feel free to ask me if you want to know more! 
+    Feel free to ask me! 
     </p>'
   button:
     icon: "icon-mail-fill"
     btnText: "Ask Me Anything!"
     URL: "mailto:rluque@uchicago.edu"
   image:
-    x: "img/who-am-i/user-picture.png"
-    _2x: "img/who-am-i/user-picture@2x.png"
+#    x: "img/who-am-i/user-picture.png"
+#    _2x: "img/who-am-i/user-picture@2x.png"
+    _2x: "img/rluque.jpg"
 
 # education
 education:
@@ -106,7 +103,9 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: "Loren Ipsum"
+  description: "I have led or participated in the discovery and characterization of more than 200 planets orbiting all types of stars.
+Since the beginning of my PhD in 2018, I have published 120+ papers (18 as first/co-lead author), given 30+ international talks, and awarded more than 550 nights (almost two full years!) of competitive telescope time. 
+Additionally, I regularly serve in funding review and telescope time allocation panels, and review numerous publications for astronomy journals."
 #  button:
 #    icon: "icon-linkedin-fill"
 #    btnText: "Linkedin"
@@ -118,12 +117,20 @@ experience:
 
   items:
     - title: "Margarita Salas Postdoctoral Fellow"
-      company: "University of Chicago"
+      company: "University of Chicago (USA)"
       duration: "Mar 2022 - present"
 
     - title: "Severo Ochoa Postdoctoral Fellow"
-      company: "Instituto de Astrofisica de Andalucia (IAA-CSIC)"
+      company: "Instituto de Astrofisica de Andalucia (Spain)"
       duration: "Jun 2021 - Feb 2022"
+
+    - title: "Research Assistant"
+      company: "International Centre of Scientific Computing (Germany)"
+      duration: "Sep 2017 - Dec 2017"
+
+ #   - title: "Summer Research Intern"
+ #     company: "Instituto de Astrofisica de Canarias (Spain)"
+ #     duration: "Jul 2016 - Sep 2016"
 
 # Client & Work
 client_and_work:
@@ -131,37 +138,43 @@ client_and_work:
   enable: true
 
   works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/radity-finance.jpg"
-        _2x: "img/works/radity-finance@2x.jpg"
-      is_even: true
+#    - title: "Radity Finance - UI Kit"
+#      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+#      button:
+#        icon: "icon-arrow-right"
+#        btnText: "Case Study"
+#        URL: "#"
+#      image:
+#        x: "img/works/radity-finance.jpg"
+#        _2x: "img/works/radity-finance@2x.jpg"
+#      is_even: true
 
-    - title: "Swiss Fintech Website"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+    - title: "The mysterious nature of sub-Neptune planets"
+      description: "Sub-Neptunes challenge our understanding of planet formation and evolution.
+      They are the most numerous type of planet in our Galaxy, but absent in the solar system.
+      My research focuses in deciphering the properties of these planets. 
+      What are they made of? Where do they form? 
+      And, more interestingly, could they harbor the right conditions for sustaining life?"
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
+        btnText: "Check my publications in ADS!"
         URL: "#"
       image:
-        x: "img/works/swissfintech.jpg"
-        _2x: "img/works/swissfintech@2x.jpg"
+#        x: "img/works/swissfintech.jpg"
+#        _2x: "img/works/swissfintech@2x.jpg"
+        _2x: "img/subneptunes.png"
       is_even: false
 
-    - title: "Robo Advisor"
-      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+    - title: "Outreach: ''Los Coloraos''"
+      description: "My most precious outreach project has been to build, with the help of my friends Miguel Gil and Migue Pugnaire, an amateur observatory fully devoted to astronomy education in Gorafe, Spain, at the heart of Granada’s (recently designated) UNESCO Global Geopark. 
+      The observatoryis the culmination of more than a decade of work in the rural areas of Andalusia doing hundreds of publicly-open, free astronomical observations, experiment shows and introduction courses in schools, and helping local businesses to use the night sky as a natural resource to attract low-impact, ecological, and socially-responsible tourism."
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+        btnText: "Visit us!"
+        URL: "https://www.turismoastronomico.org/complejo-astronomico-los-coloraos/"
       image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
+#        x: "img/works/robo-advisor.jpg"
+        _2x: "img/loscoloraos.jpg"
       is_even: true
 
 # Press releases
@@ -169,26 +182,29 @@ testimonial:
   enable: true
   title: "Publicity and Press"
   items:
-    - name: "Daniel Jordan"
-      position: "Phonet, CEO"
-      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+    - name: "Luque & Palle (2022)"
+      position: "Science, 377, 1211-1214"
+      content: "Surprise finding suggests water worlds are more common than we thought"
       image:
-        x: "img/testimonials/daniel-jordan.jpg"
-        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+ #       x: "img/testimonials/daniel-jordan.jpg"
+ #       _2x: "img/testimonials/daniel-jordan@2x.jpg"
+        _2x: "img/logo_science.jpg"
 
-    - name: "Jonathan Peters"
-      position: "Textic, CEO"
-      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+    - name: "Luque et al. (2022)"
+      position: "A&A, 664, A199"
+      content: "Discovery Alert: Two New, Rocky Planets in the Solar Neighborhood"
       image:
-        x: "img/testimonials/jonathan-peters.jpg"
-        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+#        x: "img/testimonials/jonathan-peters.jpg"
+#        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+        _2x: "img/logo_aanda.jpg"
 
-    - name: "Antonio Willis"
-      position: "Cyberse, CEO"
-      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+    - name: "Luque et al. (2019)"
+      position: "A&A, 628, A39"
+      content: "Confirmation of Toasty TESS Planet Leads to Surprising Find of Promising World"
       image:
-        x: "img/testimonials/antonio-willis.jpg"
-        _2x: "img/testimonials/antonio-willis@2x.jpg"
+#        x: "img/testimonials/antonio-willis.jpg"
+#        _2x: "img/testimonials/antonio-willis@2x.jpg"
+        _2x: "img/logo_aanda.jpg"
 
 # contact
 contact:
