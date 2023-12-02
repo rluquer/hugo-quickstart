@@ -15,6 +15,7 @@ showcase:
   image:
 #    x: "img/showcase/showcase.png"
 #   _2x: "img/showcase/showcase@2x.png"
+   x: "img/waterworld2.jpg"
    _2x: "img/waterworld2.jpg"
 #  imageMobile:
 #    x: "img/showcase/showcase.png"
@@ -70,7 +71,7 @@ about:
     I like to spend my free time with my wife and daughter traveling, 
     going to museums, trying new food or exploring the city. 
     I have many other interests like jazz and flamenco music, architecture, 
-    sports, sience outreach and many more. 
+    sports, science outreach and many more. 
     Feel free to ask me! 
     </p>'
   button:
@@ -80,6 +81,7 @@ about:
   image:
 #    x: "img/who-am-i/user-picture.png"
 #    _2x: "img/who-am-i/user-picture@2x.png"
+    x: "img/rluque.jpg"
     _2x: "img/rluque.jpg"
 
 # education
@@ -104,7 +106,7 @@ experience:
   enable: true
   title: "Experience"
   description: "I have led or participated in the discovery and characterization of more than 200 planets orbiting all types of stars.
-Since the beginning of my PhD in 2018, I have published 120+ papers (18 as first/co-lead author), given 30+ international talks, and awarded more than 550 nights (almost two full years!) of competitive telescope time. 
+Since the beginning of my PhD in 2018, I have published 120+ papers (18 as first/co-lead author), given 30+ international talks, and awarded nearly 600 nights (almost two full years!) of competitive telescope time. 
 Additionally, I regularly serve in funding review and telescope time allocation panels, and review numerous publications for astronomy journals."
 #  button:
 #    icon: "icon-linkedin-fill"
@@ -158,10 +160,11 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Check my publications in ADS!"
-        URL: "#"
+        URL: "https://ui.adsabs.harvard.edu/public-libraries/iKUPgFeETO-VCmGSkQs1Yg"
       image:
 #        x: "img/works/swissfintech.jpg"
 #        _2x: "img/works/swissfintech@2x.jpg"
+        x: "img/subneptunes.png"
         _2x: "img/subneptunes.png"
       is_even: false
 
@@ -174,6 +177,7 @@ client_and_work:
         URL: "https://www.turismoastronomico.org/complejo-astronomico-los-coloraos/"
       image:
 #        x: "img/works/robo-advisor.jpg"
+        x: "img/loscoloraos.jpg"
         _2x: "img/loscoloraos.jpg"
       is_even: true
 
@@ -182,21 +186,31 @@ testimonial:
   enable: true
   title: "Publicity and Press"
   items:
+    - name: "Luque et al. (2023)"
+      position: "Nature, 623, 932-937"
+      content: "A resonant sextuplet of sub-Neptunes transiting the bright star HD 110067"
+      image:
+ #       x: "img/testimonials/daniel-jordan.jpg"
+ #       _2x: "img/testimonials/daniel-jordan@2x.jpg"
+        x: "img/logo_nature.png"
+        _2x: "img/logo_nature.png"
+
     - name: "Luque & Palle (2022)"
       position: "Science, 377, 1211-1214"
       content: "Surprise finding suggests water worlds are more common than we thought"
       image:
  #       x: "img/testimonials/daniel-jordan.jpg"
  #       _2x: "img/testimonials/daniel-jordan@2x.jpg"
+        x: "img/logo_science.jpg"
         _2x: "img/logo_science.jpg"
 
-    - name: "Luque et al. (2022)"
-      position: "A&A, 664, A199"
-      content: "Discovery Alert: Two New, Rocky Planets in the Solar Neighborhood"
-      image:
+#    - name: "Luque et al. (2022)"
+#      position: "A&A, 664, A199"
+#      content: "Discovery Alert: Two New, Rocky Planets in the Solar Neighborhood"
+#      image:
 #        x: "img/testimonials/jonathan-peters.jpg"
 #        _2x: "img/testimonials/jonathan-peters@2x.jpg"
-        _2x: "img/logo_aanda.jpg"
+#        _2x: "img/logo_aanda.jpg"
 
     - name: "Luque et al. (2019)"
       position: "A&A, 628, A39"
@@ -204,6 +218,7 @@ testimonial:
       image:
 #        x: "img/testimonials/antonio-willis.jpg"
 #        _2x: "img/testimonials/antonio-willis@2x.jpg"
+        x: "img/logo_aanda.jpg"
         _2x: "img/logo_aanda.jpg"
 
 # contact
@@ -217,7 +232,7 @@ contact:
     message: "Type Your Message Here"
   phone:
     title: "Phone Number"
-    number: "+1 (773) 219 9945"
+    number: "+1 (sevenseventhree) 219 99four5"
   email:
     title: "Email"
     email: '<a href="mailto:rluque@uchicago.edu">rluque@uchicago.edu</a>'
