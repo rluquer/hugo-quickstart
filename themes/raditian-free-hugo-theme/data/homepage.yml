@@ -251,7 +251,7 @@ contact:
     email: '<a href="mailto:rluque@iaa.es">rluque@iaa.es</a>'
   address:
     title: "Address"
-    address: "Glorieta de la Astronomia, s/n <br />18008 Granada, Spain"
+    address: "Glorieta de la Astronomia <br />18008 Granada, Spain"
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
